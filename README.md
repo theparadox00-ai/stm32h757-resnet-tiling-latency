@@ -1,4 +1,4 @@
-# ResNet tiling plans on STM32H757 — latency study
+# ResNet tiling plans on STM32H757 latency study
 
 Inference latency of a float32 ResNet (`pretrainedResnet_large_float.tflite`, 32×32×3 input, 10 classes, 16 layers, 1.92 MB of weights) on the **STM32H757I-EVAL** board (Cortex-M7 @ 400 MHz, bare metal), for memory plans made with Tiling Lab at different RAM budgets.
 
